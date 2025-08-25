@@ -1,0 +1,10 @@
+.task-item { min-width: 220px; border:1px solid #ddd; border-radius:8px; padding:10px; background:#fafafa; }
+.task-item.done { opacity:.6; }
+.row { display:flex; justify-content:space-between; align-items:center; gap:8px; }
+.desc { color:#333; font-size:14px; margin:6px 0; }
+.meta { color:#777; font-size:12px; }
+.actions { display:flex; gap:6px; margin-top:8px; }
+.pill { font-size:12px; padding:2px 6px; border-radius:999px; background:#eee; }
+.pill.low { background:#e9f5ee; }
+.pill.medium { background:#fff5d9; }
+.pill.high { background:#ffe1e1; }
